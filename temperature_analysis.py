@@ -38,4 +38,5 @@ for i, temp in enumerate(temperatures):
     elif temp > 30:
       hot_day += 1
 print("Number of hot days before alert:", hot_day)
-print(f"Alert! Extreme temperature {temp} detected on Day {i}.")
+
+print(f"Alert! Extreme temperature {temp} detected on Day {i+1}.")
